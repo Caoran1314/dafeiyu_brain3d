@@ -1,0 +1,14 @@
+{
+  "refresh_minutes": {
+    "description": "自动刷新间隔（分钟）",
+    "type": "int",
+    "default": 5,
+    "hint": "从 memory_brain 的 brain.db 与 dafeiyu_brain 的 memory.db 重新导出一次图数据与时间线"
+  },
+  "pins": {
+    "description": "手动补充的经历（JSON 数组）",
+    "type": "text",
+    "default": "[]",
+    "hint": "覆盖层，不改数据库。示例：[{\"file\":\"x.jpg\",\"date\":\"2026-11-01 18:40:00\",\"text\":\"主人给我发了他的晚饭\",\"create\":true,\"context\":\"大盘鸡拌面\"}]"
+  }
+}

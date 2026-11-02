@@ -1,0 +1,12 @@
+name: dafeiyu_brain3d
+display_name: 大肥鱼3D记忆脑
+short_desc: 把记忆画成 3D 皮层脑，附一条从出生到今天的时间线
+desc: 把记忆库画成真实的 3D 皮层脑，附时间线与四激素面板
+help: 装上后在 AstrBot 面板 → 插件 → 大肥鱼3D记忆脑 → 打开页面。数据每 5 分钟自动刷新，也可用 /脑3d 手动刷新。
+version: 1.1.0
+author: Caoran1314
+category: 工具
+astrbot_version: ">=4.24.0"
+support_platforms:
+  - aiocqhttp
+repo: https://github.com/Caoran1314/dafeiyu_brain3d
